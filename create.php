@@ -14,6 +14,6 @@ if (mysqli_query($con,$sql))
   }
 else
   {
-  echo "Error creating database: " . mysqli_error($con);
+  echo "Error creat database: " . mysqli_error($con);
   }
 ?> 
